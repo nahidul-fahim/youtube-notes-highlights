@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+::selection {
+  background-color: #f83066;
+  color: white;
+}
+
+body {
+  width: 320px;
+  line-height: 1.7em;
+  background-color: white;
+  padding: 7px;
+}
+
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 8px 0;
+  background-color: #F6124D;
+  border-radius: 5px;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+#mainTitle {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+
+h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#noteInputContainer {
+  margin-top: 20px;
+  background-image: linear-gradient(to top right, #EBEBEB, #fff0f0, #f6124f27);
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+#noteText {
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 3px;
+  border: 1px solid #EBEBEB;
+}
+
+#saveNote {
+  margin-top: 10px;
+  background-color: #F6124D;
+  color: white;
+  font-weight: 500;
+  padding: 8px 10px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  transition: all;
+  transition-duration: 150ms;
+}
+
+#saveNote:hover {
+  background-color: #d10038;
+}
+
+#noteText:focus {
+  outline: none;
+}
+
+#notesList {
+  margin-top: 30px;
+}
+
+.single-note {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  list-style-type: disc;
+}
+
+.single-note:hover {
+  color: #ff225d;
+}
+
+#allNotesSection {
+  background-color: #EBEBEB;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.video-notes {
+  background-color: white;
+  padding: 8px;
+  margin-top: 12px;
+  border-radius: 5px;
+  box-shadow: #a3a3a3 0 0 2px;
+}
+
+
+.delete-note, .delete-video {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 2px 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+.delete-video {
+  display: block;
+  margin-top: 5px;
+}

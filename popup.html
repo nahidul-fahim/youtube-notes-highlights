@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube Notes</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+  <!-- current video section -->
+  <div id="currentVideoSection">
+    <div class="title-section">
+      <img src="images/logo1.png" class="logo" alt="">
+      <h1 id="mainTitle">YouTube Notes</h1>
+    </div>
+    <div id="noteInputContainer">
+      <h2 id="videoTitle">YouTube Notes</h2>
+      <input type="text" id="noteText" placeholder="Enter your note">
+      <button id="saveNote">Save Note</button>
+      <!-- current video note list -->
+      <ul id="notesList"></ul>
+    </div>
+  </div>
+
+  <!-- all notes section -->
+  <div id="allNotesSection">
+    <h2 style="font-size: 22px; font-weight: 600; color: #F6124D; text-decoration: underline;">All Video Notes</h2>
+    <div id="allNotesList"></div>
+  </div>
+  <script src="popup.js" type="module"></script>
+</body>
+
+</html>
